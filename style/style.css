@@ -1,0 +1,94 @@
+body{
+  background: blue;
+}
+
+.head{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+ margin-bottom: -15px;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  margin: 0;
+  color: white;
+  font-weight: 400;
+}
+
+.sulky{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  position: relative;
+  left: 45px;
+  width: 70px;
+}
+
+.twiter{
+  background-image: url(../style/img/icons8-твиттер-64.png);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+}
+
+.twiter:hover{
+  background-image: url(../style/img/icons8-твиттер-64\ \(hover\).png);
+}
+
+.Git{
+  background-image: url(../style/img/icons8-github-30.png);
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+}
+
+.Git:hover{
+  background-image: url(../style/img/icons8-github-30\ \(hover\).png);
+}
+
+.container {
+	margin: 0 auto;
+  margin-top: 30px;
+	width: 1200px;
+	display: grid;
+	grid-template-columns: 300px 300px 300px 300px;
+	grid-template-rows: 150px 150px 150px 150px;
+	grid-gap: 15px;
+}
+
+.box{
+  background: white;
+  color: blue;
+  display: grid;
+	align-items: center;
+	justify-content: center;
+  font-size: 16px;
+  
+}
+
+.box1{
+  grid-row: 1/3;
+}
+
+.box3{
+  grid-column: 3/5;
+}
+
+.box5{
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.box9{
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+
+.box11{
+  grid-column: 3/5;
+}
